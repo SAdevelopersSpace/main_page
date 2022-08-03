@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SA Pathway IT-Developers Portfolio</title>
+  <link rel="stylesheet" href="main.css">
+    
+ </head>
+
+ <script>
+  function loadMenu() {
+    links.block1.forEach(element => {
+      document.getElementById("contentsBlockOne").innerHTML += `<li><a href=${element.url}>${element.label}</a></li>`
+    });
+
+    links.block2.forEach(element => {
+      document.getElementById("contentsBlockTwo").innerHTML += `<li><a href=${element.url}>${element.label}</a></li>`
+    });
+
+  }
+ </script>
+ 
+ <body onload="loadMenu()">
+  <main>
+  <h1> SA Pathway IT-Developers Portfolio</h1>
+
+  <p id="student"><span class="to-do">Computer Science & Programming</span></p>
+
+
+  <section class="block" id="final">
+    <h2>Mission Statement &mdash; <span class="to-do">and Other Information</span></h2>
+    <ul>
+      <li><a href="https://sadevelopersspace.github.io/Introduction_Pages/" target="_blank">The <span class="to-do">Home Page</span> App</a></li>
+      <li><p><a href="https://youtu.be/0A7Se_uE7zU" target="_blank">A <span class="to-do">Short Video Demonstration of the Book Search</span> App</a></p> </li>
+   
+    </ul>
+  </section>
+
+  <table>
+    <tr>
+      <td>
+      <section class="block" id="block1">
+        <h2>Block 1</h2>
+        <ol id="contentsBlockOne"></ol>
+      </section>
+
+      <td id="screenshot">
+   
+      </td>
+    </tr>
+  </table>
+
+
+  </main>
+</body>
+</html>
