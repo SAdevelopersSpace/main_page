@@ -1,6 +1,6 @@
 const links = {
   block1: [
-      { label: "Content 1 ", url: "Introduction_Pages/main_portfolio.html"},
+      { label: "Content 1 ", url: "Introduction_Pages/index.html"},
     
   ]
 }
